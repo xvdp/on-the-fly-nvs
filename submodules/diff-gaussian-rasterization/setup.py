@@ -35,8 +35,8 @@ setup(
                     "-std=c++17",
                     "-D__STDC_FORMAT_MACROS",
                     "-I" + os.path.join(os.path.dirname(os.path.abspath(__file__)), "third_party/glm/")
-                ]}
-        ],
+                    ]}
+                )],
     cmdclass={
         'build_ext': BuildExtension
     }
